@@ -1,0 +1,107 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style for the hero section */
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.hero-text .cta {
+    display: flex;
+    margin: 20px 0;
+}
+
+.hero-text .cta input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.hero-text .cta button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+/* Style for the genres section */
+.genres {
+    padding: 20px;
+    color: white;
+}
+
+.genre-list {
+    display: flex;
+}
+
+.genre {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.genre img {
+    width: 400px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
